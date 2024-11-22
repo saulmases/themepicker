@@ -76,8 +76,6 @@ export const ThemePicker = ({
   // Styles
   const styles = {
     popover: {
-      button: "",
-      icon: "w-5 h-5 text-primary",
       content: "flex flex-col flex-wrap gap-3 items-center justify-center w-auto"
     },
     theme: {
@@ -88,7 +86,7 @@ export const ThemePicker = ({
     color: {
       group: "grid grid-cols-5 gap-1",
       item: "inline-flex items-center justify-center p-0 w-5 h-5 rounded-full flex-shrink-0 cursor-pointer ring-offset-background transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 peer-data-[state=checked]:bg-muted [&:has([data-state=checked])]:bg-muted aria-[checked=true]:bg-muted",
-      icon: "h-2 w-2 rounded-full flex-shrink-0 cursor-pointer",
+      icon: "h-2.5 w-2.5 rounded-full flex-shrink-0 cursor-pointer",
     }
   };
 
