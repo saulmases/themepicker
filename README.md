@@ -2,6 +2,8 @@
 
 Theme Picker for NextJS based on shadcn components library.
 
+![ThemePicker](./public/images/themepicker-showcase.png)
+
 ## Demo
 [themepicker.vercel.app](https://themepicker.vercel.app)
 
@@ -15,7 +17,7 @@ npx shadcn@latest add popover radio-group label
 
 ## Props
 
-The picker exposes the props from the popover, and allows a custom trigger.
+The picker exposes the props from the popover, and allows a custom trigger as children.
 
 ```
 children: React.ReactNode
