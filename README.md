@@ -23,3 +23,15 @@ align?: "start" | "center" | "end"
 sideOffset?: number
 alignOffset?: number
 ```
+
+## Usage
+
+```
+<ThemePicker
+  side="top"
+  align="center"
+  alignOffset={0}
+  sideOffset={8}>
+  Choose your theme
+</ThemePicker>
+```
