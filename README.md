@@ -2,7 +2,7 @@
 
 Theme Picker for NextJS based on shadcn components library.
 
-![ThemePicker](./public/images/themepicker-showcase.png)
+![ThemePicker](./public/images/themepicker-showcase.png | width=420)
 
 ## Demo
 [themepicker.vercel.app](https://themepicker.vercel.app)
