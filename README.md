@@ -4,9 +4,6 @@ Theme Picker for NextJS based on shadcn components library.
 
 <a href="https://themepicker.vercel.app"><img src="./public/images/themepicker-showcase.png" width="480" alt="ThemePicker"></a>
 
-## Demo
-[themepicker.vercel.app](https://themepicker.vercel.app)
-
 ## Requirements
 
 The picker uses these shadcn components. Be sure to have them installed on your site.
