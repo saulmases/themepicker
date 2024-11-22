@@ -3,8 +3,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { Monitor, Sun, Moon, Paintbrush } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Monitor, Sun, Moon } from "lucide-react";
 import {
   Popover,
   PopoverContent,
@@ -17,6 +16,7 @@ import {
 import { Label } from "@/components/ui/label";
 
 interface ThemePickerProps {
+  children: React.ReactNode
   side?: "top" | "right" | "bottom" | "left"
   align?: "center" | "end" | "start"
   sideOffset?: number
@@ -42,6 +42,7 @@ const colors = [
 ];
 
 export const ThemePicker = ({
+  children,
   side,
   align,
   sideOffset,
@@ -94,9 +95,7 @@ export const ThemePicker = ({
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant="ghost" size="icon" className={styles.popover.button}>
-          <Paintbrush className={styles.popover.icon} />
-        </Button>
+        {children}
       </PopoverTrigger>
       <PopoverContent
         className={styles.popover.content}
