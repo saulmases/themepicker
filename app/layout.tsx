@@ -12,6 +12,20 @@ const Inter_Font = Inter({
 export const metadata: Metadata = {
   title: "ThemePicker",
   description: "Theme Picker for NextJS based on shadcn components library.",
+  icons: {
+    icon: [
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/images/themepicker-logo-light.svg',
+        href: '/images/themepicker-logo-light.svg',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/images/themepicker-logo-dark.svg',
+        href: '/images/themepicker-logo-dark.svg',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
